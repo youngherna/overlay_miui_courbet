@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" package="vendor.qti.iwlan" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application android:allowBackup="false" android:directBootAware="true" android:extractNativeLibs="false" android:process=".qtidataservices">
+        <service android:enabled="true" android:exported="true" android:name=".IWlanDataService" android:permission="android.permission.BIND_TELEPHONY_DATA_SERVICE">
+            <intent-filter>
+                <action android:name="android.telephony.data.DataService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name=".IWlanNetworkService" android:permission="android.permission.BIND_TELEPHONY_NETWORK_SERVICE">
+            <intent-filter>
+                <action android:name="android.telephony.NetworkService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name=".QualifiedNetworksServiceImpl" android:permission="android.permission.BIND_TELEPHONY_DATA_SERVICE">
+            <intent-filter>
+                <action android:name="android.telephony.data.QualifiedNetworksService"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="config_mainBuiltInDisplayCutout">M 0,0 H 144 V 104 H 0 V 0 Z @left</string>
+    <string name="ext_media_ready_notification_message">Tap to safely remove device</string>
+</resources>

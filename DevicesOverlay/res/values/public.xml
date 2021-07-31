@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="bool" name="support_round_corner" id="0x7f010000" />
+    <public type="dimen" name="navigation_side_padding" id="0x7f020001" />
+    <public type="dimen" name="notch_height" id="0x7f020002" />
+    <public type="dimen" name="notch_hole_type_status_bar_padding_top" id="0x7f020003" />
+    <public type="dimen" name="notch_width" id="0x7f020004" />
+    <public type="dimen" name="recents_task_view_rounded_corners_radius" id="0x7f020005" />
+    <public type="dimen" name="round_cornor_padding" id="0x7f020006" />
+    <public type="dimen" name="statusbar_hole_type_padding_left" id="0x7f020007" />
+    <public type="dimen" name="statusbar_hole_type_padding_right" id="0x7f020008" />
+    <public type="dimen" name="incall_round_cornor_padding" id="0x7f020000" />
+    <public type="drawable" name="screen_round_corner_bottom" id="0x7f030006" />
+    <public type="drawable" name="screen_round_corner_bottom_rot180" id="0x7f030007" />
+    <public type="drawable" name="screen_round_corner_bottom_rot270" id="0x7f030008" />
+    <public type="drawable" name="screen_round_corner_bottom_rot90" id="0x7f030009" />
+    <public type="drawable" name="screen_round_corner_top" id="0x7f03000a" />
+    <public type="drawable" name="screen_round_corner_top_rot180" id="0x7f03000b" />
+    <public type="drawable" name="screen_round_corner_top_rot270" id="0x7f03000c" />
+    <public type="drawable" name="screen_round_corner_top_rot90" id="0x7f03000d" />
+    <public type="drawable" name="float_incall_notification_bg" id="0x7f030000" />
+    <public type="drawable" name="float_notification_bg" id="0x7f030001" />
+    <public type="drawable" name="force_black_top_corner" id="0x7f030002" />
+    <public type="drawable" name="force_black_top_corner_rot180" id="0x7f030003" />
+    <public type="drawable" name="force_black_top_corner_rot270" id="0x7f030004" />
+    <public type="drawable" name="force_black_top_corner_rot90" id="0x7f030005" />
+</resources>
